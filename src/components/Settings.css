@@ -1,0 +1,21 @@
+.Settings-profile {
+  margin-top: 8;
+  max-width: 90px;
+  border-radius: 10px;
+}
+
+.Settings-background {
+  margin-right: 8;
+  max-width: 90px;
+  border-radius: 10px;
+}
+
+.Settings-picture {
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.Settings-bio {
+  border-radius: 5px;
+  margin: 5px;
+}

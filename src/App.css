@@ -1,0 +1,43 @@
+.Profile {
+  background-color: #61dafb;
+  min-height: 100vh;
+}
+
+.Profile-images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Background-picture {
+  position: absolute;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+  top: 4px;
+  min-width: 800px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.Profile-picture {
+  position: absolute;
+  top: 100px;
+  width: 150px;
+  max-height: 150px;
+  border-radius: 35px;
+  object-fit: cover;
+  border: 3px solid #fff;
+}
+
+.Personal-information {
+  text-align: center;
+  margin-top: 260px;
+}
+
+.Social-status {
+  font-size: 8px;
+  min-width: 800px;
+}
